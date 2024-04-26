@@ -1,18 +1,31 @@
 package curs17;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.Properties;
 
 public class PropertiesFileProcessor {
 
-	public void readPropertiesFile(String key, String file) {
-		try(InputStream inputStream = new FileInputStream(file)){
-			Properties profile = new Properties();
-			profile.load(inputStream);
+	
+	public static String readPropertiesFile(String key, String file) {
+		
+		try(InputStream inputStream =  new FileInputStream(file)){
 			
-			return profile.getProperties;
+			Properties propfile = new Properties();
+			propfile.load(inputStream);
+			
+			return propfile.getProperty(key);
 			
 		}catch(IOException e) {
 			System.out.println("Cannot read properties file");
 		}
+		return key;
+		
 	}
+	
+	
+	
 }
