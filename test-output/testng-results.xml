@@ -1,53 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-10T16:37:18 EEST" name="Default suite" finished-at="2024-05-10T16:37:33 EEST" duration-ms="14834">
+  <suite started-at="2024-05-10T17:53:00 EEST" name="Default suite" finished-at="2024-05-10T17:53:11 EEST" duration-ms="10176">
     <groups>
     </groups>
-    <test started-at="2024-05-10T16:37:18 EEST" name="Default test" finished-at="2024-05-10T16:37:33 EEST" duration-ms="14834">
-      <class name="curs19.SeleniumLocators">
-        <test-method is-config="true" signature="setup()[pri:0, instance:curs19.SeleniumLocators@3ce1e309]" started-at="2024-05-10T16:37:18 EEST" name="setup" finished-at="2024-05-10T16:37:22 EEST" duration-ms="4180" status="PASS">
+    <test started-at="2024-05-10T17:53:00 EEST" name="Default test" finished-at="2024-05-10T17:53:11 EEST" duration-ms="10176">
+      <class name="curs20.RelativeLocators">
+        <test-method is-config="true" signature="setup()[pri:0, instance:curs20.RelativeLocators@6aba2b86]" started-at="2024-05-10T17:53:00 EEST" name="setup" finished-at="2024-05-10T17:53:05 EEST" duration-ms="4323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tagNameLocator()[pri:1, instance:curs19.SeleniumLocators@3ce1e309]" started-at="2024-05-10T16:37:22 EEST" name="tagNameLocator" finished-at="2024-05-10T16:37:22 EEST" duration-ms="78" status="PASS">
+        <test-method signature="relativeLocatorsExample()[pri:0, instance:curs20.RelativeLocators@6aba2b86]" started-at="2024-05-10T17:53:05 EEST" name="relativeLocatorsExample" finished-at="2024-05-10T17:53:05 EEST" duration-ms="555" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tagNameLocator -->
-        <test-method signature="linkTextLocator()[pri:2, instance:curs19.SeleniumLocators@3ce1e309]" started-at="2024-05-10T16:37:22 EEST" name="linkTextLocator" finished-at="2024-05-10T16:37:23 EEST" duration-ms="633" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- linkTextLocator -->
-        <test-method signature="partialLinkTextLocator()[pri:3, instance:curs19.SeleniumLocators@3ce1e309]" started-at="2024-05-10T16:37:23 EEST" name="partialLinkTextLocator" finished-at="2024-05-10T16:37:24 EEST" duration-ms="1012" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- partialLinkTextLocator -->
-        <test-method signature="classNameLocator()[pri:4, instance:curs19.SeleniumLocators@3ce1e309]" started-at="2024-05-10T16:37:24 EEST" name="classNameLocator" finished-at="2024-05-10T16:37:24 EEST" duration-ms="47" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classNameLocator -->
-        <test-method signature="idLocator()[pri:5, instance:curs19.SeleniumLocators@3ce1e309]" started-at="2024-05-10T16:37:24 EEST" name="idLocator" finished-at="2024-05-10T16:37:24 EEST" duration-ms="132" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- idLocator -->
-        <test-method signature="nameLocator()[pri:6, instance:curs19.SeleniumLocators@3ce1e309]" started-at="2024-05-10T16:37:24 EEST" name="nameLocator" finished-at="2024-05-10T16:37:27 EEST" duration-ms="3239" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nameLocator -->
-        <test-method signature="cssSelectorLocator()[pri:7, instance:curs19.SeleniumLocators@3ce1e309]" started-at="2024-05-10T16:37:27 EEST" name="cssSelectorLocator" finished-at="2024-05-10T16:37:28 EEST" duration-ms="83" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cssSelectorLocator -->
-        <test-method signature="xpathLocator()[pri:8, instance:curs19.SeleniumLocators@3ce1e309]" started-at="2024-05-10T16:37:28 EEST" name="xpathLocator" finished-at="2024-05-10T16:37:28 EEST" duration-ms="107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- xpathLocator -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:curs19.SeleniumLocators@3ce1e309]" started-at="2024-05-10T16:37:28 EEST" name="tearDown" finished-at="2024-05-10T16:37:33 EEST" duration-ms="5249" status="PASS">
+        </test-method> <!-- relativeLocatorsExample -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curs20.RelativeLocators@6aba2b86]" started-at="2024-05-10T17:53:05 EEST" name="tearDown" finished-at="2024-05-10T17:53:11 EEST" duration-ms="5246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- curs19.SeleniumLocators -->
+      </class> <!-- curs20.RelativeLocators -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
