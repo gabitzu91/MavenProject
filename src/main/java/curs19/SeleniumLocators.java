@@ -60,4 +60,31 @@ public class SeleniumLocators extends BaseTest{
 		System.out.println(price.getText());
 		assertTrue(price.getText().contains("18.49"));
 	}
+	
+	@Test(priority=5)
+	public void idLocator() {
+		WebElement reviewTab = driver.findElement(By.id("tab-title-reviews"));
+		reviewTab.click();
+		WebElement commentBox = driver.findElement(By.id("comment"));
+		assertTrue(commentBox.isDisplayed());
+	}
+	
+	@Test(priority=6)
+	public void nameLocator() throws InterruptedException {
+		WebElement commentBox = driver.findElement(By.name("comment"));
+		commentBox.sendKeys("Super mesaj!");
+		Thread.sleep(3000);
+		commentBox.clear();//sterge val prezenta intr-un input sau textarea field
+		commentBox.sendKeys("Alt super mesaj!");
+	}
+	
+	@Test(priority=7)
+	public void cssSelectorLocator() {
+		driver.findElement(By.cssSelector("input[id='author']")).sendKeys("Jhon Doe");
+	}
+	
+	@Test(priority=8)
+	public void xpathLocator() {
+		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("test@test");
+	}
 }
