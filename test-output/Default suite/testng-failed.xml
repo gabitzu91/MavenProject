@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="curs19.SeleniumLocators">
+      <class name="curs21.IsEnabledExample">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="nameLocator"/>
+          <include name="isEnabledTest"/>
         </methods>
-      </class> <!-- curs19.SeleniumLocators -->
+      </class> <!-- curs21.IsEnabledExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

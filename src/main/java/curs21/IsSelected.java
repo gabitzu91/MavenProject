@@ -23,7 +23,7 @@ public class IsSelected extends BaseTest{
 		System.out.println(userField.isSelected());
 		
 		userField.click();
-		Thread.sleep(5000);
+		Thread.sleep(5000);//ca sa vedem ca s-a selectat, se face chenarul rosu
 		System.out.println(userField.isSelected());
 		
 		System.out.println("--------------------");
