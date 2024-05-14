@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-10T17:53:00 EEST" name="Default suite" finished-at="2024-05-10T17:53:11 EEST" duration-ms="10176">
+  <suite started-at="2024-05-14T16:38:54 EEST" name="Default suite" finished-at="2024-05-14T16:39:09 EEST" duration-ms="14642">
     <groups>
     </groups>
-    <test started-at="2024-05-10T17:53:00 EEST" name="Default test" finished-at="2024-05-10T17:53:11 EEST" duration-ms="10176">
-      <class name="curs20.RelativeLocators">
-        <test-method is-config="true" signature="setup()[pri:0, instance:curs20.RelativeLocators@6aba2b86]" started-at="2024-05-10T17:53:00 EEST" name="setup" finished-at="2024-05-10T17:53:05 EEST" duration-ms="4323" status="PASS">
+    <test started-at="2024-05-14T16:38:54 EEST" name="Default test" finished-at="2024-05-14T16:39:09 EEST" duration-ms="14642">
+      <class name="curs21.IsSelected">
+        <test-method is-config="true" signature="setup()[pri:0, instance:curs21.IsSelected@5fdcaa40]" started-at="2024-05-14T16:38:54 EEST" name="setup" finished-at="2024-05-14T16:38:58 EEST" duration-ms="3969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="relativeLocatorsExample()[pri:0, instance:curs20.RelativeLocators@6aba2b86]" started-at="2024-05-10T17:53:05 EEST" name="relativeLocatorsExample" finished-at="2024-05-10T17:53:05 EEST" duration-ms="555" status="PASS">
+        <test-method signature="isSelectedTest()[pri:0, instance:curs21.IsSelected@5fdcaa40]" started-at="2024-05-14T16:38:58 EEST" name="isSelectedTest" finished-at="2024-05-14T16:39:04 EEST" duration-ms="5355" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- relativeLocatorsExample -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:curs20.RelativeLocators@6aba2b86]" started-at="2024-05-10T17:53:05 EEST" name="tearDown" finished-at="2024-05-10T17:53:11 EEST" duration-ms="5246" status="PASS">
+        </test-method> <!-- isSelectedTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curs21.IsSelected@5fdcaa40]" started-at="2024-05-14T16:39:04 EEST" name="tearDown" finished-at="2024-05-14T16:39:09 EEST" duration-ms="5261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- curs20.RelativeLocators -->
+      </class> <!-- curs21.IsSelected -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
