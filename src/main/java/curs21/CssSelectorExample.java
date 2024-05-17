@@ -60,5 +60,7 @@ public class CssSelectorExample extends BaseTest{
 		//h3[class~='sc_title']
 		WebElement book4 = driver.findElement(By.cssSelector("h3[class~='sc_title']"));
 		System.out.println(book4.getText());
+		
+		//test pt git
 	}
 }
